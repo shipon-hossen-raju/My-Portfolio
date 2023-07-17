@@ -21,7 +21,7 @@ const About = () => {
 						</figure>
 					</div>
 					<div className="flex flex-col md:w-1/2 md:pl-12">
-						<h2 className="title-font text-3xl font-semibold text-gray-800 tracking-wider mb-3">
+						<h2 className="title-font text-2xl font-semibold text-gray-800 tracking-wider mb-3">
 							Description
 						</h2>
 						<p>

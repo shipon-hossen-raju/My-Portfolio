@@ -70,10 +70,6 @@ const Navbar = () => {
 						<LogoCP />
 					</div>
 
-					{/* <nav className="md:ml-auto md:flex flex-wrap items-center text-base hidden justify-center">
-						{menuItems}
-					</nav> */}
-
 					<div className="relative" ref={menuRef}>
 						<button
 							onClick={menuToggle}
@@ -84,7 +80,7 @@ const Navbar = () => {
 
 						{/* {isOpen && ( */}
 						<div
-							className={`absolute right-0 top-[calc(100%+20px)] bg-slate-200 p-1 rounded shadow-lg transition duration-300 transform origin-top ${
+							className={`z-10 absolute right-0 top-[calc(100%+20px)] bg-slate-200 p-1 rounded shadow-lg transition duration-300 transform origin-top ${
 								isOpen ? "opacity-1 scale-y-100 " : "opacity-0 scale-y-0"
 							}`}
 						>
